@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-color: rgb(232, 232, 232);
+}
+
+.containerheader {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    border: 1px solid rgb(177, 177, 177);
+    padding: 1%;
+}
+
+.title {
+    padding-left: 5%;
+    font-family: 'Mainfont';
+}
+
+footer {
+    background-color: rgb(232, 232, 232);
+}
+
+.h2footer {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Mainfont';
+}
+
+.pfooter {
+    padding: 0 0 1% 5%;
+}
+
+.vonAres {
+    padding: 0 0 0% 1%;
+    border: 1px solid rgb(177, 177, 177);
+}
+
+.containerfooter {
+    padding: 0.1%;
+    border: 1px solid rgb(177, 177, 177);
+}
+
+@font-face {
+    font-family: 'Mainfont';
+    src: url('fonts/AtemicaSans_PERSONAL_USE_ONLY.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Mainfont';
+}
+
+.footerstrong {
+    font-family: 'Mainfont';
+}
+
+article {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    align-self: center;
+}
+
+.übermichcontainer {
+    border-radius: 5px;
+    background-color: rgb(23, 23, 23);
+    color: aliceblue;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flexD {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    color: aliceblue;
+    background-color: rgb(23, 23, 23);
+}
+
+.button-js {
+    display: none;
+    margin-top: 20px;
+}
+
+.jscontainer {
+    display: flex;
+    justify-content: center;
+}
