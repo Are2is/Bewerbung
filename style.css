@@ -122,3 +122,10 @@ button:hover {
     display: flex;
     justify-content: center;
 }
+
+.bewerbungsbild {
+    margin-left: 17%;
+    margin-bottom: -5%;
+    height: 275px;
+    width: 200px;
+}
