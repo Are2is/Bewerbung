@@ -124,8 +124,9 @@ button:hover {
 }
 
 .bewerbungsbild {
-    margin-left: 12%;
-    margin-bottom: -5%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
     height: 275px;
     width: 200px;
     padding: 0px;
